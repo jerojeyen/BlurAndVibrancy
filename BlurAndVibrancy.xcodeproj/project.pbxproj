@@ -11,6 +11,7 @@
 		0D8CDB562652A4BF004CD499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDB552652A4BF004CD499 /* ContentView.swift */; };
 		0D8CDB582652A4C0004CD499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDB572652A4C0004CD499 /* Assets.xcassets */; };
 		0D8CDB5B2652A4C0004CD499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDB5A2652A4C0004CD499 /* Preview Assets.xcassets */; };
+		0D8CDB642652A532004CD499 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDB632652A532004CD499 /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0D8CDB572652A4C0004CD499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D8CDB5A2652A4C0004CD499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D8CDB5C2652A4C0004CD499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8CDB632652A532004CD499 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0D8CDB572652A4C0004CD499 /* Assets.xcassets */,
 				0D8CDB5C2652A4C0004CD499 /* Info.plist */,
 				0D8CDB592652A4C0004CD499 /* Preview Content */,
+				0D8CDB632652A532004CD499 /* VisualEffectBlur.swift */,
 			);
 			path = BlurAndVibrancy;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8CDB642652A532004CD499 /* VisualEffectBlur.swift in Sources */,
 				0D8CDB562652A4BF004CD499 /* ContentView.swift in Sources */,
 				0D8CDB542652A4BF004CD499 /* BlurAndVibrancyApp.swift in Sources */,
 			);

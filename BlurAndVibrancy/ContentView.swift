@@ -8,9 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Image(uiImage: colorScheme == .dark ? #imageLiteral(resourceName: "wallpaper-dark") : #imageLiteral(resourceName: "wallpaper-light"))
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+            
+            VStack {
+                VisualEffectBlur(blurStyle: .systemUltraThinMaterial, vibrancyStyle: .fill) {
+                    VStack {
+                        Label("Hello", systemImage: "applelogo")
+                            .font(.largeTitle)
+                            .padding(20)
+                        Divider()
+                        Text("@devwithjero")
+                            .font(.footnote)
+                            .padding(10)
+                    }
+                }
+                .frame(width: 300, height: 150)
+                .cornerRadius(24)
+            }
+        }
+        .statusBar(hidden: true)
     }
 }
 
